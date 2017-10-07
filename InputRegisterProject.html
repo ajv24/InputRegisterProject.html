@@ -1,0 +1,80 @@
+<!--radio button  -->
+<!-- Radio -->
+<!-- Passord -->
+
+<html>
+<head>
+	<title>Register Form</title>
+</head>
+<body>
+	
+	<form action="SignInPage">
+	
+		<p>
+			<h1>Register</h1>
+			<!-- First and Last Name -->
+			<label for="first name">First Name:</label>
+			<input placeholder="first name" required>
+	
+			<label for="last name">Last Name:</label>
+			<input placeholder="last name" required>
+		</p>
+	
+		<p>
+			<!-- Gender -->
+			<label for="male">Male:</label>
+			<input name="gender" id="male" type="radio" value="Male" required>
+	
+			<label for="female">Female</label>
+			<input name="gender"id="female"type="radio" value="Female">
+	
+			<label for="other">Other</label>
+			<input name="gender" id="other" type="radio" value="Other">
+		</P>
+
+		<p>
+			<!-- Email and Passoword -->
+			<label for="email">Email:</label>
+			<input type="email" placeholder="your email" required>
+			<label for="password">Passowrd:</label>
+			<input type="password" placeholder="your password" required 
+			minlength="5" maxLength="10"> 
+		</p>
+	
+		<p>
+			<!-- Birthday -->
+			<label>Birthday:</label>
+			<select name="month">
+		
+			<option>Month</option>
+			<option>Jan</option>
+			<option>Feb</option>
+			<option>Mar</option>
+			</select>
+
+			<select name="Day">
+			<option>Day</option>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			</select>
+
+			<select name="Year">
+			<option>Year</option>
+			<option>1991</option>
+			<option>1992</option>
+			<option>1993</option>
+			</select>
+		</p>
+
+		<p>
+			<!-- Terms and Conditions -->
+			<label> I agree to the terms and conditions
+			<input type="checkbox">
+		</p>
+
+		<p>
+			<button>Submit</button>
+		</p>
+</body>
+</html>
